@@ -36,6 +36,11 @@ class ApiService {
       throw new Error('Cadastro de vendas com erro 00x25');
     }
   }
+
+  async deleteAll() {
+    await this.order.deleteMany();
+    return [];
+  }
 }
 
 module.exports = new ApiService();

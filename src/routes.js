@@ -13,6 +13,7 @@ routes.get('/criar-pedido', blingController.store)
 
 routes.get('/orders', apiController.index);
 routes.get('/save-orders', apiController.store);
+routes.delete('/orders', apiController.delete);
 
 
 module.exports = routes;
