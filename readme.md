@@ -66,16 +66,23 @@ $ git clone https://github.com/rafaellrf09/Deliverymuch-Test.git
 &nbsp;
 ## Rotas
 Por padrão o projeto deverá rodar em: **http://localhost:3333**
+
 &nbsp;
+
 **GET localhost:3333/deals** -> mostra os contratos do Pipedrive com status de *won*
+
 &nbsp;
 **GET localhost:3333/pedidos** -> mostra os pedidos criado no bling
+
 &nbsp;
 **GET localhost:3333/criar-pedido** -> cria pedidos no bling com base no resultado dos contratos do Pipedrive
+
 &nbsp;
 **GET localhost:3333/save-orders** -> cria no db Mongo os pedidos do bling por dia e total
+
 &nbsp;
 **GET localhost:3333/orders** -> mostra do db mongo os pedidos por dia e total
+
 &nbsp;
 **DELETE localhost:3333/orders** -> deleta todos os pedidos do db mongo
 
